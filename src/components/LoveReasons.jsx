@@ -1,13 +1,25 @@
-import { useRef } from "react";
+import { useEffect, useRef } from "react";
 
 function LoveReasons() {
     const reasons = ["teste1", "teste2", "teste3", "teste4", "teste5"];
     const listRef = useRef(null);
 
+    useEffect(() => {
+        if (!listRef.current) return;
+        const items = listRef.current.querySelectorAll("li[data-aos]");
+        items.forEach((item, i) => {
+            item.setAttribute("data-aos-delay", String(i * 120));
+        });
+        if (window.AOS && typeof window.AOS.refresh === "function") {
+            window.AOS.refresh();
+        }
+    }, []);
+
     return (
         <section className="p-6 sm:p-8 bg-gradient-to-b rounded-xl max-w-4xl mx-auto mb-18">
             <h2
                 className="text-3xl font-semibold text-center text-pink-500 mb-8"
+                data-aos="zoom-in"
             >
                 10 Razões Pelas Quais Eu Te Amo
             </h2>
@@ -15,6 +27,7 @@ function LoveReasons() {
                 {reasons.slice(0, 10).map((r, i) => (
                     <li
                         key={i}
+                        data-aos="fade-right"
                         className="bg-pink-50 border-2 border-pink-200 p-6 rounded-lg shadow-xl hover:shadow-2xl transition-shadow duration-300 ease-in-out transform hover:scale-105"
                     >
                         <div className="flex items-center space-x-3">
