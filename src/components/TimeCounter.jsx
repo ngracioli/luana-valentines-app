@@ -81,9 +81,12 @@ function TimeCounter() {
     ];
 
     return (
-        <section className="text-center py-10 px-2 sm:px-6 bg-white rounded-2xl max-w-2xl w-full mx-auto border-5 border-pink-100">
+        <section
+            className="text-center py-10 px-2 sm:px-6 bg-white rounded-2xl max-w-2xl w-full mx-auto border-5 border-pink-100"
+            data-aos="fade-up"
+        >
             <h2 className="text-3xl font-bold text-pink-500 mb-8 flex flex-col items-center justify-center gap-2">
-                <Clock className="w-8 h-8 text-pink-500 animate-bounce" />
+                <Clock className="w-8 h-8 text-pink-500 animate-pulse" />
                 <span>Estamos juntos há</span>
             </h2>
             <div className="flex flex-wrap justify-center gap-3 sm:gap-5">
