@@ -25,7 +25,7 @@ function WelcomeText() {
                 Bem-vinda ao nosso cantinho especial
             </p>
             <button
-                className="bg-pink-500 hover:bg-pink-700 transition transform-gpu hover:scale-110 text-white font-bold py-2 px-6 sm:px-8 rounded-3xl mt-5 will-change-transform cursor-pointer text-lg sm:text-xl"
+                className="bg-pink-500 hover:bg-pink-600 transition transform-gpu hover:scale-110 text-white font-bold py-2 px-6 sm:px-8 rounded-3xl mt-5 will-change-transform cursor-pointer text-lg sm:text-xl"
                 onClick={() => {
                     const section = document.activeElement.closest("section");
                     const navbar = document.getElementById("navbar");
