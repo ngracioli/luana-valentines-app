@@ -16,6 +16,9 @@ function App() {
         AOS.init({ duration: 1000 });
     }, []);
 
+    const sectionClass =
+        "rounded-3xl bg-white shadow-xl p-6 md:p-10 border border-pink-100";
+
     return (
         <div className="min-h-screen heart-bg font-sans flex flex-col bg-pink-50">
             <div data-aos="zoom-down">
@@ -23,19 +26,19 @@ function App() {
             </div>
 
             <main className="flex-1 flex flex-col gap-10 md:gap-16 max-w-5xl w-full mx-auto px-2 sm:px-6 md:px-10 py-6">
-                <section className="rounded-3xl bg-white shadow-xl p-6 md:p-10 flex flex-col items-center gap-6 border border-pink-100">
+                <section className={sectionClass}>
                     <TimeCounter />
                 </section>
-                <section className="rounded-3xl bg-white shadow-xl p-6 md:p-10 border border-pink-100">
+                <section className={sectionClass}>
                     <TimeLine />
                 </section>
-                <section className="rounded-3xl bg-white shadow-xl p-6 md:p-10 border border-pink-100">
+                <section className={sectionClass}>
                     <Gallery />
                 </section>
-                <section className="rounded-3xl bg-white shadow-xl p-6 md:p-10 border border-pink-100">
+                <section className={sectionClass}>
                     <LoveReasons />
                 </section>
-                <section className="rounded-3xl bg-white shadow-xl p-6 md:p-10 border border-pink-100">
+                <section className={sectionClass}>
                     <LoveMessageBox />
                 </section>
             </main>
