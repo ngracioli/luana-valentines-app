@@ -1,13 +1,14 @@
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import TimeCounter from "./components/TimeCounter";
+
+import Footer from "./components/Footer";
 import Gallery from "./components/Gallery";
 import LoveMessageBox from "./components/LoveMessageBox";
 import LoveReasons from "./components/LoveReasons";
-import WelcomeText from "./components/WelcomeText";
-import Footer from "./components/Footer";
+import TimeCounter from "./components/TimeCounter";
 import TimeLine from "./components/TimeLine";
+import WelcomeText from "./components/WelcomeText";
 
 import "./index.css";
 
