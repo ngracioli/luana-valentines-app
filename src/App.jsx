@@ -17,9 +17,8 @@ function App() {
     }, []);
 
     return (
-        <div className="min-h-screen bg-gradient-to-br from-pink-50 to-pink-100 font-sans flex flex-col">
+        <div className="min-h-screen heart-bg font-sans flex flex-col bg-pink-50">
             <Navbar />
-            <div className="h-20" />
             <div data-aos="fade-down">
                 <WelcomeText />
             </div>
