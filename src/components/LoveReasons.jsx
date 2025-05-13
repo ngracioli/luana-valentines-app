@@ -25,16 +25,16 @@ function LoveReasons() {
             </h2>
             <ul className="space-y-4" ref={listRef}>
                 {reasons.slice(0, 10).map((r, i) => (
-                    <li
-                        key={i}
-                        data-aos="fade-right"
-                        className="bg-pink-50 border-2 border-pink-200 p-6 rounded-lg shadow-xl hover:shadow-2xl transition-shadow duration-300 ease-in-out transform hover:scale-105"
-                    >
-                        <div className="flex items-center space-x-3">
-                            <span className="text-pink-500 text-3xl">❤️</span>
-                            <span className="text-xl text-gray-700">{r}</span>
-                        </div>
-                    </li>
+                    <div data-aos="fade-right" key={i}>
+                        <li
+                            className="bg-pink-50 border-2 border-pink-200 p-6 rounded-lg shadow-xl hover:shadow-2xl transform hover:scale-105 transition-transform duration-200"
+                        >
+                            <div className="flex items-center space-x-3">
+                                <span className="text-pink-500 text-3xl">❤️</span>
+                                <span className="text-xl text-gray-700">{r}</span>
+                            </div>
+                        </li>
+                    </div>
                 ))}
             </ul>
         </section>
