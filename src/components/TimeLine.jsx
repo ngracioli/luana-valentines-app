@@ -4,36 +4,49 @@ const events = [
         title: "Nos conhecemos pelo Instagram 📱",
         description:
             "Nossa conversa começou timidamente e, sem perceber, já estávamos apegados um ao outro.",
+        picture: "./assets/photo1.jpg",
     },
     {
         date: "21 de Dezembro de 2024",
         title: "Nosso Primeiro Encontro ✨",
         description:
             "Saímos pela primeira vez e, então, vi o quão linda e doce você era. Percebi o quanto a gente se encaixava em tudo que fazia. Foi nesse dia que comecei a me apaixonar por você.",
+        picture: "./assets/photo1.jpg",
     },
     {
         date: "21 de Dezembro de 2024",
         title: "Primeiro Beijo 💑",
         description:
             "Após horas de conversa e conexão, nosso primeiro beijo aconteceu. Me passou a sensação de que o que estávamos vivendo tinha tudo para se tornar algo especial.",
+        picture: "./assets/photo1.jpg",
     },
     {
         date: "01 de Janeiro de 2025",
         title: "Primeiro 'Eu te amo' 💌",
         description:
             "Logo no início do ano, com o coração transbordando, as palavras mais verdadeiras saíram da minha boca: eu disse que te amava.",
+        picture: "./assets/photo1.jpg",
+    },
+    {
+        date: "01 de Fevereiro de 2025",
+        title: "Nosso 'Primeiro Filho' 🍼",
+        description:
+            "Faltando dois dias pro meu aniversário, num dos nossos passeios, eu peguei nosso filhinho (Gengar) na máquina de pelúcia pra você. Fiquei muito feliz pois senti que algo que eu gostava começou a ser parte de você também.",
+        picture: "./assets/photo1.jpg",
     },
     {
         date: "01 de Março de 2025",
         title: "Pedido de Namoro 💍",
         description:
             "Com o coração cheio de certeza e carinho, perguntei se você queria ser minha de verdade. E foi aí que você disse sim!",
+        picture: "./assets/photo1.jpg",
     },
     {
         date: "Hoje",
         title: "Vivendo esse Amor 💖",
         description:
             "A cada dia que passa, tenho mais certeza de que estar com você, Luana, é o melhor lugar que eu poderia estar. Eu te amo muito, minha princesinha, e espero continuar vivendo esse amor por muitos e muitos anos.",
+        picture: "./assets/photo1.jpg",
     },
 ];
 
