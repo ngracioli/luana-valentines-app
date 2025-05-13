@@ -93,6 +93,8 @@ const Timeline = () => {
                     tabIndex={0}
                     role="dialog"
                     aria-modal="true"
+                    data-aos="fade-in"
+                    data-aos-duration="500"
                 >
                     <img
                         src={selectedImage}
