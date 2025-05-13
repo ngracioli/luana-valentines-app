@@ -5,42 +5,77 @@ const events = [
         date: "06 de Dezembro de 2024",
         title: "Nos conhecemos pelo Instagram 📱",
         description:
-            "Nossa conversa começou timidamente e, sem perceber, já estávamos apegados um ao outro.",
+            "Nossa conversa começou de um jeito bem tímido mas, sem perceber, já tinha me apegado muito a você amorzinho.",
         picture: "./src/assets/photo1.jpg",
     },
     {
         date: "21 de Dezembro de 2024",
         title: "Nosso Primeiro Encontro ✨",
         description:
-            "Saímos pela primeira vez e, então, vi o quão linda e doce você era. Percebi o quanto a gente se encaixava em tudo que fazia. Foi nesse dia que comecei a me apaixonar por você.",
+            "Saímos pela primeira vez e, então, vi o quão linda e fofinha você era. Percebi o quanto a gente se encaixava em tudo que fazia e foi nesse dia que comecei a me apaixonar mais ainda por você.",
         picture: "./src/assets/photo1.jpg",
     },
     {
         date: "21 de Dezembro de 2024",
         title: "Primeiro Beijo 💑",
         description:
-            "Após horas de conversa e conexão, nosso primeiro beijo aconteceu. Me passou a sensação de que o que estávamos vivendo tinha tudo para se tornar algo especial.",
+            "Após horas de conversa e conexão, nosso primeiro beijo aconteceu. Me passou a sensação de que o que a gente tava vivendo tinha tudo para se tornar algo especial, minha princesinha.",
         picture: "./src/assets/photo1.jpg",
     },
     {
         date: "01 de Janeiro de 2025",
         title: "Primeiro 'Eu te amo' 💌",
         description:
-            "Logo no início do ano, com o coração transbordando, as palavras mais verdadeiras saíram da minha boca: eu disse que te amava.",
+            "Logo no início do ano, com o meu coração transbordando de amor, tive a coragem o suficiente pra te falar o quanto eu te amava, fofinha linda.",
         picture: "./src/assets/photo1.jpg",
     },
     {
         date: "01 de Fevereiro de 2025",
         title: "Nosso 'Primeiro Filho' 🍼",
         description:
-            "Faltando dois dias pro meu aniversário, num dos nossos passeios, eu peguei nosso filhinho (Gengar) na máquina de pelúcia pra você. Fiquei muito feliz pois senti que algo que eu gostava começou a ser parte de você também.",
+            "Faltando dois dias pro meu aniversário, num dos nossos passeios no shopping, eu peguei nosso filhinho (Gengar) na máquina de pelúcia pra você. Fiquei muito feliz pois senti que algo que eu gostava começou a ser parte de você também, amor.",
+        picture: "./src/assets/photo1.jpg",
+    },
+    {
+        date: "03 de Fevereiro de 2025",
+        title: "Meu Aniversário 🎉🎂",
+        description:
+            "Meu dia especial ficou ainda mais especial sabendo que já tinha você ao meu lado. Você foi pra mim um presente que eu nunca vou esquecer.",
+        picture: "./src/assets/photo1.jpg",
+    },
+    {
+        date: "23 de Fevereiro de 2025",
+        title: "Seu Aniversário 🎈👑",
+        description:
+            "O seu dia, minha princesa! Fiquei muito feliz em te dar parabéns e poder mimar você. Ver seu sorriso perto desse dia foi a melhor sensação pra mim, sério amorzinho.",
         picture: "./src/assets/photo1.jpg",
     },
     {
         date: "01 de Março de 2025",
         title: "Pedido de Namoro 💍",
         description:
-            "Com o coração cheio de certeza e carinho, perguntei se você queria ser minha de verdade. E foi aí que você disse sim!",
+            "Com o coração cheio de certeza e carinho, perguntei se você queria ser minha de verdade mesmo. E foi aí que você disse sim e a gente começou a namorar!",
+        picture: "./src/assets/photo1.jpg",
+    },
+    {
+        date: "09 de Março de 2025",
+        title: "Primeira Vez Jogando Minecraft 🧱🐱",
+        description:
+            "Jogamos Minecraft juntos pela primeira vez e construímos nossa casinha com nossos gatinhos amorzinho. Foi tão divertido e especial compartilhar esse momento com você, ainda me lembro da sensação.",
+        picture: "./src/assets/photo1.jpg",
+    },
+    {
+        date: "15 de Março de 2025",
+        title: "Primeira Call e Roblox 🎧",
+        description:
+            "Fizemos nossa primeira call, mesmo você com muita vergonha da sua voz linda perfeita maravilhosa. Foi muito bom te ouvir pela primeira vez online, e ainda nos divertimos jogando Roblox juntinhos.",
+        picture: "./src/assets/photo1.jpg",
+    },
+    {
+        date: "20 de Abril de 2025",
+        title: "Nossa Primeira Páscoa Juntos 🐰🍫",
+        description:
+            "Nossa primeira Páscoa juntos (mesmo que eu tenha te dado o ovo da Hello Kitty dois dias antes askdjasjldad). Foi tudo muito especial ao seu lado!",
         picture: "./src/assets/photo1.jpg",
     },
     {
