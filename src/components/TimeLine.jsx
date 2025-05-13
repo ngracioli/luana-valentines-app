@@ -62,26 +62,25 @@ const Timeline = () => {
             <div className="relative w-full">
                 <div className="border-l-2 sm:border-l-4 border-pink-300 absolute h-full left-4 sm:left-6 top-0 z-0"></div>
                 {events.map((event, index) => (
-                    <div
-                        key={index}
-                        className="mb-8 sm:mb-12 ml-8 sm:ml-12 relative flex flex-col sm:flex-row items-start z-10 cursor-pointer"
-                        data-aos="zoom-in-right"
-                        onClick={() => setSelectedImage(event.picture)}
-                        tabIndex={0}
-                        role="button"
-                        aria-label={`Abrir foto de ${event.title}`}
-                    >
-                        <div className="absolute w-4 h-4 sm:w-6 sm:h-6 bg-pink-400 rounded-full left-[-10px] sm:left-[-15px] top-2 border-4 border-white shadow-md"></div>
-                        <div className="bg-pink-50 shadow-lg rounded-2xl p-4 sm:p-6 flex-1 border border-pink-100 w-full">
-                            <time className="text-xs sm:text-base text-pink-600 font-semibold tracking-wide">
-                                {event.date}
-                            </time>
-                            <h3 className="text-lg sm:text-lg md:text-xl font-bold text-pink-500 mt-1">
-                                {event.title}
-                            </h3>
-                            <p className="mt-2 text-gray-600 text-base sm:text-base md:text-base">
-                                {event.description}
-                            </p>
+                    <div key={index} data-aos="zoom-in-right">
+                        <div
+                            className="mb-8 sm:mb-12 ml-8 sm:ml-12 relative flex flex-col sm:flex-row items-start z-10 cursor-pointer transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-2xl"
+                            onClick={() => setSelectedImage(event.picture)}
+                            tabIndex={0}
+                            role="button"
+                        >
+                            <div className="absolute w-4 h-4 sm:w-6 sm:h-6 bg-pink-400 rounded-full left-[-10px] sm:left-[-15px] top-2 border-4 border-white shadow-md"></div>
+                            <div className="bg-pink-50 shadow-lg rounded-2xl p-4 sm:p-6 flex-1 border border-pink-100 w-full">
+                                <time className="text-xs sm:text-base text-pink-600 font-semibold tracking-wide">
+                                    {event.date}
+                                </time>
+                                <h3 className="text-lg sm:text-lg md:text-xl font-bold text-pink-500 mt-1">
+                                    {event.title}
+                                </h3>
+                                <p className="mt-2 text-gray-600 text-base sm:text-base md:text-base">
+                                    {event.description}
+                                </p>
+                            </div>
                         </div>
                     </div>
                 ))}
@@ -98,7 +97,6 @@ const Timeline = () => {
                 >
                     <img
                         src={selectedImage}
-                        alt="Foto do evento"
                         className="max-w-[90vw] max-h-[80vh] rounded-2xl shadow-2xl border-4 border-white"
                     />
                 </div>
