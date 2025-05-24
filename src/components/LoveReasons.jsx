@@ -1,7 +1,28 @@
 import { useEffect, useRef } from "react";
 
 function LoveReasons() {
-    const reasons = ["teste1", "teste2", "teste3", "teste4", "teste5"];
+    const reasons = [
+        "O jeito carinhoso que você tem, mesmo em pequenas coisinhas que você não percebe",
+        "Seus olhinhos enormes fofinhos que me deixam completamente bobinho",
+        "A maneira que você sorri e vira o rostinho quando tá com vergonha",
+        "Seu abraço que me acalma sempre e me deixa sentir seu cheirinho",
+        "Seu jeito de me elogiar e me deixar todo bobo",
+        "O toque macio e delicado da sua mão em mim",
+        "Seu estilo todo fofinho parecendo que saiu de um dorama ou as vezes de um cemitério",
+        "O quanto você parece uma bonequinha com sua pele macia e cheirosa",
+        "Sua vozinha linda que me deixa aconchegado demais (mesmo que você não goste dela)",
+        "Te ouvir falando de coisas que você gosta e ver seu olhinho brilhando",
+        "Seu narizinho que me faz ter vontade de apertar ele sempre",
+        "Suas bochechas que me fazem querer morder muuuito elas",
+        "Te ver comendo toda animadinha e feliz (principalmente com doce)",
+        "As suas orelhinhas pequenininhas que me dão vontade de morder",
+        "Seu cabelinho macio e cheiroso que me faz querer ficar cheirando ele e passando a mão",
+        "Te ver dormindo e sentir que você é a coisa mais linda do mundo",
+        "Ver você toda carentezinha querendo muito carinho e amor",
+        "Te ver toda feliz quando eu faço algo que você gosta",
+        "O jeitinho que você fala 'besta' quando fica sem graça com uma gracinha minha",
+        "Quando você fecha os olhinhos e sorri depois de ganhar um beijo",
+    ];
     const listRef = useRef(null);
 
     useEffect(() => {
@@ -21,17 +42,19 @@ function LoveReasons() {
                 className="text-3xl font-semibold text-center text-pink-500 mb-8"
                 data-aos="zoom-in"
             >
-                10 Razões Pelas Quais Eu Te Amo
+                20 Razões Pelas Quais Eu Te Amo
             </h2>
             <ul className="space-y-4" ref={listRef}>
-                {reasons.slice(0, 10).map((r, i) => (
+                {reasons.slice(0, 20).map((r, i) => (
                     <div data-aos="fade-right" key={i}>
-                        <li
-                            className="bg-pink-50 border-2 border-pink-200 p-6 rounded-lg shadow-xl hover:shadow-2xl transform hover:scale-105 transition-transform duration-200"
-                        >
+                        <li className="bg-pink-50 border-2 border-pink-200 p-6 rounded-lg shadow-xl hover:shadow-2xl transform hover:scale-105 transition-transform duration-200">
                             <div className="flex items-center space-x-3">
-                                <span className="text-pink-500 text-3xl">❤️</span>
-                                <span className="text-xl text-gray-700">{r}</span>
+                                <span className="text-pink-500 text-3xl">
+                                    ❤️
+                                </span>
+                                <span className="text-xl text-gray-700">
+                                    {r}
+                                </span>
                             </div>
                         </li>
                     </div>
