@@ -12,7 +12,7 @@ function LoveMessageBox() {
         "Você é o motivo do meu sorriso.",
         "Seu amor me faz ser melhor.",
         "A vida ficou mais linda depois\nque você chegou.",
-        "Te amar é minha parte preferida\ndo meu dia.",
+        "Te amar é minha parte preferida do meu dia.",
         "Você me completa por inteiro.",
     ];
     const [index, setIndex] = useState(0);
@@ -35,27 +35,29 @@ function LoveMessageBox() {
                 Minhas mensagens de amor para você
                 <span className="inline-block">💖</span>
             </h2>
-            <div className="bg-pink-50 p-6 rounded-2xl text-pink-400 border-pink-200 mb-8 shadow-sm border flex items-center justify-center min-h-[120px]">
+            <div className="bg-pink-50 p-4 sm:p-6 rounded-2xl text-pink-400 border-pink-200 mb-8 shadow-sm border flex items-center justify-center min-h-[130px]">
                 <p
-                    className={`text-2xl italic font-medium max-w-md mx-auto transition-opacity duration-300 ${
+                    className={`text-xl sm:text-3xl italic font-medium max-w-xs sm:max-w-md mx-auto transition-opacity duration-300 ${
                         fade ? "opacity-100" : "opacity-0"
                     }`}
                 >
                     {phrases[index].split("\n").map((line, i) => (
                         <span key={i}>
                             {line}
-                            {i !== phrases[index].split("\n").length - 1 && <br />}
+                            {i !== phrases[index].split("\n").length - 1 && (
+                                <br />
+                            )}
                         </span>
                     ))}
                 </p>
             </div>
             <button
                 onClick={nextPhrase}
-                className="cursor-pointer bg-pink-500 hover:bg-pink-600 text-white px-8 py-3 rounded-full font-semibold text-lg shadow transition duration-200 hover:scale-105 focus:outline-none focus:ring-2 focus:ring-pink-300"
+                className="cursor-pointer bg-pink-500 hover:bg-pink-600 text-white px-18 py-3 rounded-full font-semibold text-lg shadow transition duration-200 hover:scale-105 focus:outline-none focus:ring-2 focus:ring-pink-300"
             >
                 Mostrar outra
             </button>
-            <div className="mt-6 text-pink-400 text-sm italic">
+            <div className="mt-4 sm:mt-6 text-pink-400 text-base sm:text-lg italic">
                 "Nunca haverá frases suficientes para expressar o quanto eu te
                 amo."
             </div>
