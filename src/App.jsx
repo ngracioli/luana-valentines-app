@@ -15,6 +15,7 @@ import LoveMessageBox from "./components/LoveMessageBox";
 import LoveReasons from "./components/LoveReasons";
 import TimeCounter from "./components/TimeCounter";
 import TimeLine from "./components/TimeLine";
+import VirtualHug from "./components/VirtualHug";
 import WelcomeText from "./components/WelcomeText";
 
 import "./index.css";
@@ -41,6 +42,9 @@ function App() {
                             <main className="flex-1 flex flex-col gap-10 md:gap-16 max-w-5xl w-full mx-auto px-2 sm:px-6 md:px-10 py-6">
                                 <section className={sectionClass}>
                                     <TimeCounter />
+                                </section>
+                                <section className={sectionClass}>
+                                    <VirtualHug />
                                 </section>
                                 <section className={sectionClass}>
                                     <TimeLine />
