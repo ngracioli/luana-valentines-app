@@ -5,11 +5,11 @@
 </p>
 <br />
 Um <b>website interativo, moderno e responsivo</b> desenvolvido como presente de Dia dos Namorados para a <b>Luana</b>. O projeto utiliza <b>React</b>, <b>React Router</b>, <b>Tailwind CSS</b>, <b>Framer Motion</b> e <b>AOS</b> para proporcionar uma experiência fluida, <b>mobile first</b> e cheia de animações.
-
+<br /> <br />
 <div align="center">
   <img src="public/website-preview.png" alt="Preview do site" width="60%" style="border-radius: 1.5rem; box-shadow: 0 4px 24px #ec489955; margin: 2rem 0;"/>
 </div>
-
+<br />
 A interface foi cuidadosamente desenhada para ser <b>visualmente atraente, acolhedora e fácil de usar</b>, com foco total em dispositivos móveis. O layout é totalmente responsivo, garantindo beleza e funcionalidade em qualquer tela. Animações suaves, ícones personalizados e transições tornam a navegação envolvente e especial. O uso de Tailwind CSS permite personalização rápida e moderna, enquanto Framer Motion e AOS trazem vida aos elementos da página.
 
 ---
