@@ -3,7 +3,6 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 import Footer from "./components/Footer";
-import Gallery from "./components/Gallery";
 import LoveMessageBox from "./components/LoveMessageBox";
 import LoveReasons from "./components/LoveReasons";
 import TimeCounter from "./components/TimeCounter";
@@ -32,9 +31,6 @@ function App() {
                 </section>
                 <section className={sectionClass}>
                     <TimeLine />
-                </section>
-                <section className={sectionClass}>
-                    <Gallery />
                 </section>
                 <section className={sectionClass}>
                     <LoveReasons />
