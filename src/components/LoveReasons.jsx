@@ -39,20 +39,20 @@ function LoveReasons() {
     return (
         <section className="p-6 sm:p-8 bg-gradient-to-b rounded-xl max-w-4xl mx-auto mb-18">
             <h2
-                className="text-3xl font-semibold text-center text-pink-500 mb-8"
+                className="text-3xl font-bold text-center text-pink-500 mb-8"
                 data-aos="zoom-in"
             >
                 20 Razões Pelas Quais Eu Te Amo
             </h2>
-            <ul className="space-y-4" ref={listRef}>
+            <ul className="space-y-6" ref={listRef}>
                 {reasons.slice(0, 20).map((r, i) => (
                     <div data-aos="fade-right" key={i}>
-                        <li className="bg-pink-50 border-2 border-pink-200 p-6 rounded-lg shadow-xl hover:shadow-2xl transform hover:scale-105 transition-transform duration-200">
-                            <div className="flex items-center space-x-3">
-                                <span className="text-pink-500 text-3xl">
+                        <li className="bg-pink-50 border-2 border-pink-200 py-7 px-4 sm:p-6 rounded-lg shadow-xl hover:shadow-2xl transform hover:scale-105 transition-transform duration-200">
+                            <div className="flex flex-col items-center text-center sm:flex-row sm:items-center sm:text-left gap-3 sm:gap-3">
+                                <span className="text-2xl sm:text-2xl text-pink-500">
                                     ❤️
                                 </span>
-                                <span className="text-xl text-gray-700">
+                                <span className="text-lg sm:text-xl text-gray-700 leading-snug">
                                     {r}
                                 </span>
                             </div>
