@@ -72,10 +72,38 @@ const events = [
         picture: "./src/assets/photo1.jpg",
     },
     {
+        date: "05 de Abril de 2025",
+        title: "Primeira Vez em um Barzinho Juntos 🍻🍔",
+        description:
+            "Foi nossa primeira vez indo no Santo Giro, a gente comeu espetinho e eu comi um hambúrguer. Foi muito legal sair pra um lugar diferente do shopping e tirar várias fotinhas lindas suas.",
+        picture: "./src/assets/photo1.jpg",
+    },
+    {
+        date: "13 de Abril de 2025",
+        title: "Primeira Vez na Minha Casa 💕🍿",
+        description:
+            "Foi a primeira vez que você veio na minha casa e a gente ficou bem agarradinho assistindo coisinhas e comendo várias besteirinhas foi tudo muuuuuuuuuuito bom.",
+        picture: "./src/assets/photo1.jpg",
+    },
+    {
+        date: "20 de Maio de 2025",
+        title: "Dormiu em Casa Pela Primeira Vez 🌙💤",
+        description:
+            "Foi a primeira vez que você dormiu aqui em casa e foi perfeitooooooo. Dormir agarradinho com você é sempre muito bom, eu amo muuuuuuito isso me sinto tão seguro e confortável.",
+        picture: "./src/assets/photo1.jpg",
+    },
+    {
         date: "20 de Abril de 2025",
         title: "Nossa Primeira Páscoa Juntos 🐰🍫",
         description:
             "Nossa primeira Páscoa juntos (mesmo que eu tenha te dado o ovo da Hello Kitty dois dias antes askdjasjldad). Foi tudo muito especial ao seu lado!",
+        picture: "./src/assets/photo1.jpg",
+    },
+    {
+        date: "25 de Maio de 2025",
+        title: "Primeiro Evento Geek Juntos 🎥🎮",
+        description:
+            "Foi a nossa primeira vez em um evento de anime / coisinhas geek, mesmo não tendo muita coisa, foi muito legal estar com você, poder compartilhar esse momentozinho contigo e aproveitar o nosso tempo juntos.",
         picture: "./src/assets/photo1.jpg",
     },
     {
