@@ -34,7 +34,7 @@ function App() {
                 <Route
                     path="/"
                     element={
-                        <div className="min-h-[100dvh] heart-bg font-sans flex flex-col bg-pink-50">
+                        <div className="min-h-[100svh] heart-bg font-sans flex flex-col bg-pink-50">
                             <div data-aos="zoom-down">
                                 <WelcomeText />
                             </div>
