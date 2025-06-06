@@ -151,7 +151,18 @@ function Letter() {
                     whileHover={{ scale: 1.07 }}
                     whileTap={{ scale: 0.97 }}
                     className="mt-6 cursor-pointer bg-pink-500 hover:bg-pink-600 text-white px-18 py-3 rounded-full font-semibold text-lg shadow transition duration-200 hover:scale-105 focus:outline-none focus:ring-2 focus:ring-pink-300"
-                    onClick={() => navigate("/")}
+                    onClick={() => {
+                        navigate("/");
+                        setTimeout(
+                            () =>
+                                window.scrollTo({
+                                    top: 0,
+                                    left: 0,
+                                    behavior: "auto",
+                                }),
+                            0
+                        );
+                    }}
                 >
                     Voltar para o início
                 </motion.button>
