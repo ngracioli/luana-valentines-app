@@ -14,7 +14,7 @@ function WelcomeText() {
     }, []);
 
     return (
-        <section className="flex flex-col items-center justify-center text-center py-10 px-4 md:py-16 md:px-0 min-h-screen relative">
+        <section className="flex flex-col items-center justify-center text-center pb-10 px-4 md:py-16 md:px-0 min-h-[100svh] relative">
             <h1 className="text-4xl sm:text-4xl md:text-5xl font-extrabold text-pink-500 mb-4 drop-shadow-lg">
                 Luana & Nicolas
             </h1>
