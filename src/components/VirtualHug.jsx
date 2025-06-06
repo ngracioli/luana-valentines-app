@@ -35,20 +35,22 @@ function VirtualHug() {
     };
 
     return (
-        <section
-            className="text-center py-10 px-2 sm:px-6 rounded-2xl shadow-xl max-w-2xl w-full mx-auto border-4 border-pink-100"
-            data-aos="fade-up"
-        >
-            <h2 className="text-3xl font-bold text-pink-500 mb-8 flex items-center justify-center gap-2 flex-wrap">
-                Abraço Virtual <span className="inline-block">🤗</span>
-            </h2>
-
-            <button
-                onClick={handleClick}
-                className="bg-pink-500 hover:bg-pink-600 text-white px-8 py-3 rounded-full font-semibold text-lg shadow transition duration-200 hover:scale-105 focus:outline-none focus:ring-2 focus:ring-pink-300 mb-2"
+        <>
+            <section
+                className="text-center py-10 px-2 sm:px-6 rounded-2xl shadow-xl max-w-2xl w-full mx-auto border-4 border-pink-100"
+                data-aos="fade-up"
             >
-                Aperte para receber um abraço virtual meu 🤍
-            </button>
+                <h2 className="text-3xl font-bold text-pink-500 mb-8 flex items-center justify-center gap-2 flex-wrap">
+                    Abraço Virtual <span className="inline-block">🤗</span>
+                </h2>
+
+                <button
+                    onClick={handleClick}
+                    className="cursor-pointer bg-pink-500 hover:bg-pink-600 text-white px-8 py-3 rounded-full font-semibold text-lg shadow transition duration-200 hover:scale-105 focus:outline-none focus:ring-2 focus:ring-pink-300 mb-2"
+                >
+                    Aperte para receber um abraço virtual meu 🤍
+                </button>
+            </section>
             <AnimatePresence>
                 {showHug && (
                     <motion.div
@@ -95,7 +97,7 @@ function VirtualHug() {
                     </motion.div>
                 )}
             </AnimatePresence>
-        </section>
+        </>
     );
 }
 
