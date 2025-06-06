@@ -8,7 +8,7 @@ function Letter() {
         window.scrollTo({ top: 0, left: 0, behavior: "auto" });
     }, []);
     return (
-        <section className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-br from-pink-100 via-pink-200 to-pink-50 py-10 px-2 sm:px-6">
+        <section className="min-h-[100dvh] flex flex-col items-center justify-center bg-gradient-to-br from-pink-100 via-pink-200 to-pink-50 py-10 px-2 sm:px-6">
             <motion.div
                 initial={{ opacity: 0, y: 40 }}
                 animate={{ opacity: 1, y: 0 }}
