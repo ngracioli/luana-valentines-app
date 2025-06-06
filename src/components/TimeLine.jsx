@@ -13,105 +13,105 @@ const events = [
         title: "Nosso Primeiro Encontro ✨",
         description:
             "Saímos pela primeira vez e, então, vi o quão linda e fofinha você era. Percebi o quanto a gente se encaixava em tudo que fazia e foi nesse dia que comecei a me apaixonar mais ainda por você.",
-        picture: "./src/assets/photo1.jpg",
+        picture: "./src/assets/photo2.jpg",
     },
     {
         date: "21 de Dezembro de 2024",
         title: "Primeiro Beijo 💑",
         description:
             "Após horas de conversa e conexão, nosso primeiro beijo aconteceu. Me passou a sensação de que o que a gente tava vivendo tinha tudo para se tornar algo especial, minha princesinha.",
-        picture: "./src/assets/photo1.jpg",
+        picture: "./src/assets/photo3.jpg",
     },
     {
         date: "01 de Janeiro de 2025",
         title: "Primeiro 'Eu te amo' 💌",
         description:
             "Logo no início do ano, com o meu coração transbordando de amor, tive a coragem o suficiente pra te falar o quanto eu te amava, fofinha linda.",
-        picture: "./src/assets/photo1.jpg",
+        picture: "./src/assets/photo4.jpg",
     },
     {
         date: "01 de Fevereiro de 2025",
         title: "Nosso 'Primeiro Filho' 🍼",
         description:
             "Faltando dois dias pro meu aniversário, num dos nossos passeios no shopping, eu peguei nosso filhinho (Gengar) na máquina de pelúcia pra você. Fiquei muito feliz pois senti que algo que eu gostava começou a ser parte de você também, amor.",
-        picture: "./src/assets/photo1.jpg",
+        picture: "./src/assets/photo5.jpg",
     },
     {
         date: "03 de Fevereiro de 2025",
         title: "Meu Aniversário 🎉🎂",
         description:
             "Meu dia especial ficou ainda mais especial sabendo que já tinha você ao meu lado. Você foi pra mim um presente que eu nunca vou esquecer.",
-        picture: "./src/assets/photo1.jpg",
+        picture: "./src/assets/photo6.jpg",
     },
     {
         date: "23 de Fevereiro de 2025",
         title: "Seu Aniversário 🎈👑",
         description:
             "O seu dia, minha princesa! Fiquei muito feliz em te dar parabéns e poder mimar você. Ver seu sorriso perto desse dia foi a melhor sensação pra mim, sério amorzinho.",
-        picture: "./src/assets/photo1.jpg",
+        picture: "./src/assets/photo7.jpg",
     },
     {
         date: "01 de Março de 2025",
         title: "Pedido de Namoro 💍",
         description:
             "Com o coração cheio de certeza e carinho, perguntei se você queria ser minha de verdade mesmo. E foi aí que você disse sim e a gente começou a namorar!",
-        picture: "./src/assets/photo1.jpg",
+        picture: "./src/assets/photo8.jpg",
     },
     {
         date: "09 de Março de 2025",
         title: "Primeira Vez Jogando Minecraft 🧱🐱",
         description:
             "Jogamos Minecraft juntos pela primeira vez e construímos nossa casinha com nossos gatinhos amorzinho. Foi tão divertido e especial compartilhar esse momento com você, ainda me lembro da sensação.",
-        picture: "./src/assets/photo1.jpg",
+        picture: "./src/assets/photo9.jpg",
     },
     {
         date: "15 de Março de 2025",
         title: "Primeira Call e Roblox 🎧",
         description:
             "Fizemos nossa primeira call, mesmo você com muita vergonha da sua voz linda perfeita maravilhosa. Foi muito bom te ouvir pela primeira vez online, e ainda nos divertimos jogando Roblox juntinhos.",
-        picture: "./src/assets/photo1.jpg",
+        picture: "./src/assets/photo10.jpg",
     },
     {
         date: "05 de Abril de 2025",
         title: "Primeira Vez em um Barzinho Juntos 🍻🍔",
         description:
             "Foi nossa primeira vez indo no Santo Giro, a gente comeu espetinho e eu comi um hambúrguer. Foi muito legal sair pra um lugar diferente do shopping e tirar várias fotinhas lindas suas.",
-        picture: "./src/assets/photo1.jpg",
+        picture: "./src/assets/photo11.jpg",
     },
     {
         date: "13 de Abril de 2025",
         title: "Primeira Vez na Minha Casa 💕🍿",
         description:
             "Foi a primeira vez que você veio na minha casa e a gente ficou bem agarradinho assistindo coisinhas e comendo várias besteirinhas foi tudo muuuuuuuuuuito bom.",
-        picture: "./src/assets/photo1.jpg",
+        picture: "./src/assets/photo12.jpg",
     },
     {
-        date: "20 de Maio de 2025",
+        date: "20 de Abril de 2025",
         title: "Dormiu em Casa Pela Primeira Vez 🌙💤",
         description:
             "Foi a primeira vez que você dormiu aqui em casa e foi perfeitooooooo. Dormir agarradinho com você é sempre muito bom, eu amo muuuuuuito isso me sinto tão seguro e confortável.",
-        picture: "./src/assets/photo1.jpg",
+        picture: "./src/assets/photo13.jpg",
     },
     {
         date: "20 de Abril de 2025",
         title: "Nossa Primeira Páscoa Juntos 🐰🍫",
         description:
             "Nossa primeira Páscoa juntos (mesmo que eu tenha te dado o ovo da Hello Kitty dois dias antes askdjasjldad). Foi tudo muito especial ao seu lado!",
-        picture: "./src/assets/photo1.jpg",
+        picture: "./src/assets/photo14.jpg",
     },
     {
         date: "25 de Maio de 2025",
         title: "Primeiro Evento Geek Juntos 🎥🎮",
         description:
             "Foi a nossa primeira vez em um evento de anime / coisinhas geek, mesmo não tendo muita coisa, foi muito legal estar com você, poder compartilhar esse momentozinho contigo e aproveitar o nosso tempo juntos.",
-        picture: "./src/assets/photo1.jpg",
+        picture: "./src/assets/photo15.jpg",
     },
     {
         date: "Hoje",
         title: "Vivendo esse Amor 💖",
         description:
             "A cada dia que passa, tenho mais certeza de que estar com você, Luana, é o melhor lugar que eu poderia estar. Eu te amo muito, minha princesinha, e espero continuar vivendo esse amor por muitos e muitos anos.",
-        picture: "./src/assets/photo1.jpg",
+        picture: "./src/assets/photo16.jpg",
     },
 ];
 
